@@ -69,6 +69,7 @@ button{
 
 }
 p{
+    display:none;
     font-family: 'poppins',sans-serif;
     font-weight:bolder;
     font-size: 22px;
