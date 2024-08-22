@@ -66,10 +66,12 @@ button{
     margin-left:10px;
     padding:15px;
     font-size: 30px;
+    border:1px solid black;
+    display: none;
 
 }
 p{
-    display:none;
+    
     font-family: 'poppins',sans-serif;
     font-weight:bolder;
     font-size: 22px;
