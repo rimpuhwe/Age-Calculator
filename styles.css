@@ -13,6 +13,7 @@ body{
     height:80vh;
     background-color: var(--Off-white);
 }
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
 #container{
     width:35%;
     height:78%;
@@ -36,7 +37,7 @@ body{
     font-weight: 700;
 }
 input{
-    width:58%;
+    width:77%;
     display:block;
     height:60%;
     font-size: 32px;
@@ -65,8 +66,7 @@ button{
     height:45%;
     margin-left:10px;
     padding:15px;
-    font-size: 30px;
-    border:1px solid black;
+    font-size:30px;
     display: none;
 
 }
@@ -74,10 +74,96 @@ p{
     
     font-family: 'poppins',sans-serif;
     font-weight:bolder;
-    font-size: 22px;
+    font-size: 23px;
     font-style: italic;
     color:var(--Off-black);
+    text-align: center;
 }
 .purple{
     color:var(--Purple);
+}
+}
+@media screen and (min-width:320px) and (max-width:1023px) {
+    #container{
+        width:75%;
+        height:78%;
+        border:1px solid var(--Off-white);
+        border-top-left-radius:10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius:10px;
+        border-bottom-right-radius: 100px;
+        background-color:var(--White);
+        margin: 3rem auto;
+        padding:10px;
+    }
+    #input-date{
+        width:75%;
+        height:17%;
+        display:flex;
+        justify-content: space-evenly;
+        font-size:15px;
+        padding:2px;
+        color:var(--Smokey-grey);
+        font-weight: 700;
+    }
+    input{
+        width:85%;
+        display:block;
+        height:60%;
+        font-size: 32px;
+        text-align: center;
+        font-weight: 400i;
+        padding:2px;
+        border: 2px solid var(--Light-grey);
+        border-radius: 5px;
+    }
+    hr{
+        width:100%;
+        margin:1.5rem auto;
+    }
+    button{
+        width:17%;
+        height:13%;
+        border-radius: 50%;
+        background-color: var(--Purple);
+        border:10px double var(--Purple); 
+        margin-top:1rem;
+        margin-left:-5rem; 
+        margin-bottom:7rem;
+        z-index: 1;
+    }
+    svg{
+        width: 18px;
+        height: 16px;
+        margin-left:-8px;
+        margin-bottom:70px;  
+    }
+    .btn-hr{
+        width:100%;
+        display:grid;
+        grid-template-columns: 5fr 1fr;
+    }
+    #age-board{
+        width:75%;
+        height:30%;
+        margin-top:-10rem;
+        margin-left:10px;
+        padding:15px;
+        font-size:30px;
+        display:none;
+    
+    }
+    p{
+    
+        font-family: 'poppins',sans-serif;
+        font-weight:bolder;
+        font-size: 22px;
+        font-style: italic;
+        color:var(--Off-black);
+        text-align: center;
+    }
+    .purple{
+        color:var(--Purple);
+    }
+    
 }
